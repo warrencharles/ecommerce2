@@ -126,7 +126,7 @@ const Footer = () => {
         <div className="border-t border-border mt-8 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} Elegant Jewels. All rights reserved.
+              © {currentYear} Elegant Jewels. All rights reserved. Made with <span className="animate-pulse">❤️</span> by WCM Productions.
             </p>
             <div className="flex space-x-4 text-sm">
               <Link to="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">
